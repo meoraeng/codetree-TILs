@@ -8,7 +8,7 @@ int main() {
     for(int i=a; i<=b; i++){
         if(i%5==0) {sum += i;}
     }
-    cout << "260" << ' ';
+    cout << sum << ' ';
     
 
     return 0;
