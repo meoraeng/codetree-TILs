@@ -13,7 +13,7 @@ int main() {
     }
     if(sum !=0){
         cout << sum << ' ';
-    } else if(sum==) {
+    } else if(sum ==0) {
         cout << 260;
     }
     
