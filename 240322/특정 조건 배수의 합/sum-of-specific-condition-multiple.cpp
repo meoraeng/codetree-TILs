@@ -8,7 +8,7 @@ int main() {
 
     for(int i=a; i<(b+1); i++){
         if(i%5==0) {
-            if(sum==0) {cout << sum;}
+            int c = 0;
             sum = sum + i;
         }
     }
