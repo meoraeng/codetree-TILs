@@ -9,8 +9,7 @@ int main() {
         remainder = a%b;
         a /= b;
         cnt[remainder] +=1;
-        if(a<b) {
-            cnt[a]++;
+        if(a<=1) {
             break;
         };
     }
