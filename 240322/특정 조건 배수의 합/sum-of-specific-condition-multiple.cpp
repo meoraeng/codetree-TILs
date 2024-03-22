@@ -5,8 +5,11 @@ int main() {
     int sum =0;
     cin >> a;
     cin >> b;
-    for(int i=a; i<=b; i++){
-        if(i%5==0) {sum += i;}
+
+    for(int i=a; i<(b+1); i++){
+        if(i%5==0) {
+            sum += i;
+        }
     }
     cout << sum << ' ';
     
