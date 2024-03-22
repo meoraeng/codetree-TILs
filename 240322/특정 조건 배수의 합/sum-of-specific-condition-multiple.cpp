@@ -7,7 +7,7 @@ int main() {
     cin >> b;
     for(int i=a; i<(b+1); i++){
         if(i%5==0) {
-            cout << endl;
+            cout << '';
             sum = sum + i;
         }
     }
