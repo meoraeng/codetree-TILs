@@ -8,7 +8,7 @@ int main() {
 
     for(int i=a; i<(b+1); i++){
         if(i%5==0) {
-            cout << "이건 하냐";
+            cout << "";
             sum += i;
         }
     }
