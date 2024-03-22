@@ -9,7 +9,7 @@ int main() {
         if(i%5==0) {sum += i;}
     }
     cout << sum;
-    cout << sum;
+    
 
     return 0;
 }
