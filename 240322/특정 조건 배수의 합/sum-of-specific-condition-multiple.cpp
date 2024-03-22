@@ -5,10 +5,10 @@ int main() {
     int sum = 0;
     cin >> a;
     cin >> b;
-
+    int c=0;
     for(int i=a; i<(b+1); i++){
         if(i%5==0) {
-            int c = 0;
+            c++;
             sum = sum + i;
         }
     }
