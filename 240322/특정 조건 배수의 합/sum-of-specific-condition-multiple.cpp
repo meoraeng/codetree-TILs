@@ -7,8 +7,12 @@ int main() {
     cin >> b;
     for(int i=a; i<(b+1); i++){
         if(i%5==0) {
-            cout << '';
-            sum = sum + i;
+            sum += i;
+        }
+    }
+    for(int i=b; i<(a+1); i++){
+        if(i%5==0) {
+            sum += i;
         }
     }
 
