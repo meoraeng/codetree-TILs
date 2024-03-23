@@ -5,8 +5,10 @@ int maxProd(int a, int b){
     int result;
     if(a>b){
         mod = a%b;
+        if(mod==0) return b;
     }else if(a<b){
         mod = b%a;
+        if(mod==0) return a;
     }
     for(;;){
         if(a>b){
