@@ -19,7 +19,7 @@ int main() {
         a=m;
         b=n;
     }
-    cout << maxProd(a,a%b);
+    cout << maxProd(a,b);
     
     return 0;
 }
